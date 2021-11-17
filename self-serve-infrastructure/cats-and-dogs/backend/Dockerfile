@@ -1,4 +1,4 @@
-FROM redis
+FROM redis:6.2-buster
 
 RUN apt-get update 
 RUN apt-get install -y curl 
